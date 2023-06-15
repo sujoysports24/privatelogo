@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tech &#8211; News Online Mills &#8211; latest update</title>
+	<atom:link href="https://news.online.mills.edu/category/tech/feed/" rel="self" type="application/rss+xml" />
+	<link>https://news.online.mills.edu</link>
+	<description></description>
+	<lastBuildDate>Thu, 15 Jun 2023 18:40:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>https://news.online.mills.edu/wp-content/uploads/2023/06/logo.png</url>
+	<title>Tech &#8211; News Online Mills &#8211; latest update</title>
+	<link>https://news.online.mills.edu</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Rust in Embedded Systems: 5 Challenges to Overcome</title>
+		<link>https://news.online.mills.edu/rust-in-embedded-systems-5-challenges-to-overcome/</link>
+					<comments>https://news.online.mills.edu/rust-in-embedded-systems-5-challenges-to-overcome/#respond</comments>
+		
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<pubDate>Thu, 15 Jun 2023 18:40:22 +0000</pubDate>
+				<category><![CDATA[Tech]]></category>
+		<guid isPermaLink="false">https://news.online.mills.edu/?p=998</guid>
+
+					<description><![CDATA[Here are 5 fundamental challenges that prevent the adoption of Rust in embedded systems Rust has received much]]></description>
+										<content:encoded><![CDATA[<h3>Here are 5 fundamental challenges that prevent the adoption of Rust in embedded systems</h3>
+<p>Rust has received much attention for being the language to use. Rust is an intriguing programming language because of its memory safety features, but like with many other things in life, it’s easier said than done. Rust is an exciting language choice. However, at least five fundamental barriers hinder using Rust in embedded systems. Let’s look at a few of these obstacles that prevent the adoption of Rust in embedded systems.</p>
+<p><strong>1.Commercial Assistance</strong></p>
+<p>Today, most embedded product development teams use commercial support tools to speed development. You likely receive low-level drivers, file systems, an RTOS, configuration tools, and other things from your microcontroller vendor. You can speed up your progress using the offered tools because the heavy lifting has already been done. Only a few microcontroller vendors now support Rust. They are all still offering C assistance. Anything more than that leaves us on our own.</p>
+<p>Developers can turn an SVD file specifying a microcontroller peripheral into a peripheral crate using tools like svd2rust. The tool can create a box that a developer can utilize quite effectively, but it does have some possible drawbacks.</p>
+<p>If the vendor doesn’t offer help, you and your team will be responsible for solving the problem. This may harm product timelines and budgets, even though it can be exciting and result in many lessons learned.</p>
+<p><strong>2.Training Expenses</strong></p>
+<p>Learning Rust is a challenging task. The learning curve is steeper even if it does share ideas and principles with many of the languages that came before it, including C. When a business wants to embrace a new language, it must train its staff or hire engineers familiar with the technology. Rust for embedded teams will find themselves in a tiny, specialized community. Only some competent embedded software engineers in this community are familiar with Rust. This pays more for the few developers familiar with Rust or invests in the internal team’s current training.</p>
+<p>It’s a good idea to teach your team how to utilize Rust. Every business and developer should continually invest in themselves. If you do, you’ll stay caught up because the industry changes fast. However, the corporation must profit from migrating from one programming language to another. Particularly when using a young language like Rust. The outcome, such as improved security or a more reliable system, must provide a return on investment. A team considering using Rust should unbiasedly assess if Rust is the best course of action.</p>
+<p>Training is more complex than enrolling in a five-day language session. It’s one thing to learn the grammar of the language. A week can be enough time to become proficient in that language, learn to avoid traps, and write good, maintainable code. Even though significant progress could be made, it cannot be completed in a year. Therefore, even if the initial training expenses may seem minimal, the total cost of training is represented by all project delays, additional debugging, and slowed development time as the team learns how to apply the new language to their products correctly.</p>
+<p><strong>3.Conservative Technology Adoption</strong></p>
+<p>Have you ever wondered why embedded development environments adopt new technologies so slowly? Risks related to production, correct functionality, and safety are present when building physical objects as opposed to pure applications. In the case of a pure app, complaints trigger a 24-hour software turn to upgrade the software. You might not have that luxury if you work on a system for the aerospace, automotive, or consumer electronics industries.</p>
+<p>Businesses that depend on physical products frequently have a higher risk of failing. As a result, business owners and managers tend to be more risk-averse and go for solutions they are confident have been tried and true. Investments are frequently made in currently used technologies, work processes, and personnel. The change costs for an established business can be high, while the rewards are modest. Adopting a more recent technology can make sense if you’re a small start-up because you must develop your technology infrastructure and procedures.</p>
+<p>The possibility of failure frequently forces businesses to employ low-risk solutions to achieve their goals. Because adopting a new technology like Rust doesn’t offer any meaningful advantages over what is already well-established in the market, many businesses may choose to employ C or C++ instead of it. A skilled professional can safely accomplish the same tasks in C or C++ as a Rust programmer.</p>
+<p><strong>4.Integrating a Toolchain</strong></p>
+<p>Today, many embedded software developers have built systems, procedures, and tools that they employ in an integrated manner. Since Rust might not get along with these current toolchains, using it will push developers to reevaluate and redesign their entire development process.</p>
+<p>While the brand-new Rust could seem like a terrific route to go, you might find that while you work on developing the new tools and processes, you end up moving backward and losing insights into your system that you previously had. The outcome can be satisfactory, but we know that wasted time is wasted opportunity.</p>
+<p><strong>5.Absence of Standards</strong></p>
+<p>You can refer to the standards for C and C++ to learn what is and is not officially supported by the language. There has yet to be an official specification or standard for Rust. The Rust Language Team oversees the language design, and all modifications follow a well-established Request for Comments (RFC) procedure. The RFCs and the Rust documentation provide the informal language standard.</p>
+<p>Commercial support for Rust in safety-critical applications and other fields will only exist with a defined language specification. There isn’t a paid version of the Rust compiler, also known as Rustc, which is open-source and free. The Rust community creates the compiler under the direction of the Rust team. Even though this may not seem like a huge concern, the absence of standardization allows Rust to change course at any time. While this is fantastic for innovation and growth, it could be better for embedded people who depend on consistency for durable products.</p>
+<p>These obstacles are important reasons why Rust won’t be adopted. There will be businesses that use it and are successful. There will also be people who adopt it but fail. Others will continue their current course and business as usual with minimal change.</p>
+<p>Disclaimer: Any financial and crypto market information given on Analytics Insight is written for informational purpose only and is not an investment advice. Conduct your own research by contacting financial experts before making any investment decisions. The decision to read hereinafter is purely a matter of choice and shall be construed as an express undertaking/guarantee in favour of Analytics Insight of being absolved from any/ all potential legal action, or enforceable claims.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://news.online.mills.edu/rust-in-embedded-systems-5-challenges-to-overcome/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Google hit with record EU fine over Shopping service</title>
+		<link>https://news.online.mills.edu/google-hit-with-record-eu-fine-over-shopping-service/</link>
+					<comments>https://news.online.mills.edu/google-hit-with-record-eu-fine-over-shopping-service/#respond</comments>
+		
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<pubDate>Wed, 18 Jul 2018 11:50:24 +0000</pubDate>
+				<category><![CDATA[Newsbeat]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Science]]></category>
+		<guid isPermaLink="false">https://demo.afthemes.com/covernews-pro/?p=33</guid>
+
+					<description><![CDATA[Quisquam id rutrum cumque incidunt! Feugiat dicta nascetur cubilia placerat. Nec turpis!  Lorem ipsum dolor sit amet, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap">Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. no sea takimata sanctus est Lorem ipsum dolor sit amet. no sea takimata sanctus est Lorem ipsum dolor sit amet. sed diam voluptua. Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. no sea takimata sanctus est Lorem ipsum dolor sit amet. no sea takimata sanctus est Lorem ipsum dolor sit amet. sed diam voluptua.</p>
+
+
+
+<div class="wp-block-cover aligncenter has-background-dim has-background-dim-NaN"><img decoding="async" width="1280" height="850" class="wp-block-cover__image-background wp-image-439" alt="" src="https://news.online.mills.edu/wp-content/uploads/2018/07/water-light-architecture-sky-bridge-skyline-661635-pxhere.com_-1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<h2 class="has-text-align-center wp-block-heading">Lorem ipsum dolor sit amet</h2>
+
+
+
+<p class="has-text-align-center">Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum.</p>
+</div></div>
+
+
+
+<div class="wp-block-media-text alignfull is-stacked-on-mobile is-image-fill"><figure class="wp-block-media-text__media" style="background-image:url(https://demo.afthemes.com/enternews-pro/wp-content/uploads/2018/07/pexels-shivam-maurya-6867261-683x1024.jpg);background-position:47% 42%"><img decoding="async" src="https://demo.afthemes.com/enternews-pro/wp-content/uploads/2018/07/pexels-shivam-maurya-6867261-683x1024.jpg" alt="" class="wp-image-770 size-full"/></figure><div class="wp-block-media-text__content">
+<p class="has-drop-cap has-luminous-vivid-amber-color has-very-dark-gray-background-color has-text-color has-background has-normal-font-size">Veritatis lorem risus laoreet, aliquid, ullamco lobortis, quo reprehenderit aute blandit wisi! Excepteur provident! Tenetur lacinia, minus voluptate aptent per, cupidatat! Mus incidunt ullamco, aliquam corrupti repudiandae felis, euismod? Luctus aliquip a amet laboriosam cursus? Tempus vel proident. Praesent dolores purus! Explicabo, tempus harum enim porttitor. Aperiam. Luctus aliquip a amet laboriosam cursus? Tempus vel proident. Praesent dolores purus! </p>
+</div></div>
+
+
+
+<h2 class="has-text-align-center wp-block-heading">Phasellus autem? Placeat laboris, sem cupiditate assumenda. </h2>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-4">
+<div class="wp-block-column is-layout-flow" style="flex-basis:25%">
+<h3 class="has-vivid-red-color has-text-color wp-block-heading">Officia pariatur? </h3>
+
+
+
+<p>Officia pariatur? Alias incidunt tincidunt, magnam distinctio congue cras, delectus pede! Tincidunt beatae habitant ullam. Aute reiciendis nemo aut alias unde laboriosam placerat sequi! Atque habitasse fringilla similique. Dis odit voluptate dis rutrum dui praesentium? Justo?</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow" style="flex-basis:50%">
+<h3 class="wp-block-heading">Officia pariatur? Alias incidunt tincidunt.</h3>
+
+
+
+<p class="has-very-light-gray-color has-vivid-red-background-color has-text-color has-background">Officia pariatur? Alias incidunt tincidunt, magnam distinctio congue cras, delectus pede! Tincidunt beatae habitant ullam. Aute reiciendis nemo aut alias unde laboriosam placerat sequi! Atque habitasse fringilla similique. Dis odit voluptate dis rutrum dui praesentium? Justo?</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow" style="flex-basis:25%">
+<p>Officia pariatur? Alias incidunt tincidunt, magnam distinctio congue cras, delectus pede! Tincidunt beatae habitant ullam. Aute reiciendis nemo aut alias unde laboriosam placerat sequi! Atque habitasse fringilla similique. Dis odit voluptate dis rutrum dui praesentium? Justo?</p>
+</div>
+</div>
+
+
+
+<p>Senectus odit eveniet. Occaecat mus adipisci? Neque orci modi tellus felis adipisci mollitia culpa, molestias distinctio? <a href="https://afthemes.com/">Integer quae.</a> Curae eu adipisicing suspendisse euismod eros dignissimos! Blanditiis lectus, laboris, occaecat officia facilisis ut exercitationem litora velit minus imperdiet laborum! Numquam dictumst. Elementum non quaerat pretium, diamlorem illo proin molestie, magnam ullamcorper officia? Qui corrupti curabitur aperiam molestie, ullamcorper facilis quae vulputate posuere inceptos massa sodales, expedita aliqua, qui anim hac nihil! Magna irure! Placeat omnis dis suspendisse accusamus nam! Suspendisse? Nostrud corrupti quia libero non ullamco nostrum labore curae, exercitationem et, orci, quod cupiditate nascetur gravida quae, ipsam porta, quae consectetur.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Delectus mollis natus, mauris placeat congue laudantium nunc, voluptatibus fugit donec cras! Tempora! Mollit, eveniet, wisi, eiusmod! Eaque, eius fuga minima temporibus quidem taciti bibendum!</p></blockquote>
+
+
+
+<p class="has-very-light-gray-background-color has-background">Autem parturient quod quia adipiscing laboris dignissimos sollicitudin nisi, tenetur! Cillum felis unde pretium? Quasi nostrud! Vivamus nam bibendum sit pretium magni neque? Erat ipsum facilisis. Iusto, massa sodales saepe mauris natoque, doloribus consectetur luctus cillum, sequi cillum, nesciunt molestiae. Lacinia aliquid? Imperdiet ac molestiae, lorem pharetra adipiscing? <a href="https://afthemes.com/">Vivamus cupiditate</a> sequi maecenas sapien! Netus nostra architecto? Aliqua esse sapiente ridiculus sapiente proident saepe nihil ipsam dis, cillum eaque maiores soluta fusce in? Etiam nobis sociosqu? Fringilla, vestibulum sagittis. Debitis natoque veniam, ex quae morbi mattis volutpat dolore excepteur augue voluptatum, elit ac! Dolore commodi hendrerit augue quaerat accusantium! Anim aperiam.</p>
+
+
+
+<h2 class="has-vivid-red-color has-text-color wp-block-heading">Some Useful links</h2>
+
+
+
+<h4 class="wp-block-heading">Totam elit laboris? Eu donec consectetuer litora adipisci praesent convallis augue</h4>
+
+
+
+<h3 class="wp-block-heading">Tags Cloud</h3>
+
+
+<p class="wp-block-tag-cloud"><a href="https://news.online.mills.edu/tag/business/" class="tag-cloud-link tag-link-10 tag-link-position-1" style="font-size: 15.636363636364pt;" aria-label="Business (3 items)">Business</a>
+<a href="https://news.online.mills.edu/tag/health/" class="tag-cloud-link tag-link-11 tag-link-position-2" style="font-size: 8pt;" aria-label="Health (1 item)">Health</a>
+<a href="https://news.online.mills.edu/tag/newsbeat/" class="tag-cloud-link tag-link-12 tag-link-position-3" style="font-size: 22pt;" aria-label="Newsbeat (6 items)">Newsbeat</a>
+<a href="https://news.online.mills.edu/tag/science/" class="tag-cloud-link tag-link-13 tag-link-position-4" style="font-size: 12.581818181818pt;" aria-label="Science (2 items)">Science</a>
+<a href="https://news.online.mills.edu/tag/sport/" class="tag-cloud-link tag-link-14 tag-link-position-5" style="font-size: 8pt;" aria-label="Sport (1 item)">Sport</a>
+<a href="https://news.online.mills.edu/tag/stories/" class="tag-cloud-link tag-link-15 tag-link-position-6" style="font-size: 8pt;" aria-label="Stories (1 item)">Stories</a>
+<a href="https://news.online.mills.edu/tag/world/" class="tag-cloud-link tag-link-16 tag-link-position-7" style="font-size: 15.636363636364pt;" aria-label="World (3 items)">World</a></p>
+
+
+<div class="wp-block-columns is-layout-flex wp-container-8">
+<div class="wp-block-column is-layout-flow">
+<h3 class="wp-block-heading">Latest Posts</h3>
+
+
+<ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://news.online.mills.edu/tms-network-tmsn-outperforms-market-for-7th-week-optimism-op-and-avalanche-avax-nowhere-to-be-found/">TMS Network (TMSN) Outperforms Market for 7th Week; Optimism (OP) and Avalanche (AVAX) Nowhere to be Found</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://news.online.mills.edu/rust-in-embedded-systems-5-challenges-to-overcome/">Rust in Embedded Systems: 5 Challenges to Overcome</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://news.online.mills.edu/study-finds-that-eating-meals-earlier-improves-metabolic-health/">Study Finds That Eating Meals Earlier Improves Metabolic Health</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://news.online.mills.edu/ancelotti-reportedly-wants-achraf-hakimis-return-to-real-madrid/">Ancelotti Reportedly Wants Achraf Hakimi’s Return to Real Madrid</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://news.online.mills.edu/building-a-playbook-for-elite-level-sports/">Building a playbook for elite-level sports</a></li>
+</ul></div>
+
+
+
+<div class="wp-block-column is-layout-flow">
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow">
+<h3 class="wp-block-heading">Categories</h3>
+
+
+<ul class="wp-block-categories-list wp-block-categories">	<li class="cat-item cat-item-2"><a href="https://news.online.mills.edu/category/business/">Business</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://news.online.mills.edu/category/health/">Health</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://news.online.mills.edu/category/newsbeat/">Newsbeat</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="https://news.online.mills.edu/category/sports/">Sports</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://news.online.mills.edu/category/stories/">Stories</a>
+</li>
+	<li class="cat-item cat-item-8 current-cat"><a aria-current="page" href="https://news.online.mills.edu/category/tech/">Tech</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://news.online.mills.edu/category/world/">World</a>
+</li>
+</ul></div></div>
+
+
+
+<p></p>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://news.online.mills.edu/google-hit-with-record-eu-fine-over-shopping-service/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
